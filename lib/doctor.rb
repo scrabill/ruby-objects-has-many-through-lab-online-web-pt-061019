@@ -18,9 +18,9 @@ end
     x
   end
 
-  def appointments
-    self.all.name == self
-  end
+  # def appointments
+  #   self.all.name == self
+  # end
 
   def appointments
     Appointment.all.select do |appt|
