@@ -30,7 +30,7 @@ end
 
   def patients
     appointments.collect do |appt|
-      appt.doctor
+      appt.patient
     end
   end
 
