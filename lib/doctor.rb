@@ -22,5 +22,10 @@ end
     self.all.name == self
   end
 
+  def appointments
+    Appointment.all.select do |appt|
+      song.genre == self
+    end
+  end
 
 end
