@@ -23,6 +23,9 @@ class Genre
   end
 
   def artists
+    Song.all.collect do |song|
+      song.artist == self
+    end
     self.all.artists.name
     # binding.pry
   end
