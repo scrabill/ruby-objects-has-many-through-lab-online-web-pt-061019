@@ -13,5 +13,8 @@ end
     @@all
   end
 
+  def new_appointment(patient, date)
+  end
+
 
 end
