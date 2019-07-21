@@ -23,7 +23,7 @@ class Genre
 
     #
     # @songs
-    binding.pry
+    # binding.pry
   end
 
   def artists
