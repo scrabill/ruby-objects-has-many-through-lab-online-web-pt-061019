@@ -24,7 +24,7 @@ end
 
   def appointments
     Appointment.all.select do |appt|
-      song.genre == self
+      appt.genre == self
     end
   end
 
