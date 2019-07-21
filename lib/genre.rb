@@ -17,7 +17,7 @@ class Genre
   end
 
   def songs
-    Songs.all
+    Song.all
 
     #
     # @songs
