@@ -30,7 +30,7 @@ end
 
   def patients
     patients.collect do |patient|
-      patients.doctoe
+      patients.doctor
     end
   end
 
