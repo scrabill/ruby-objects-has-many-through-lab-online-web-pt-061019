@@ -17,7 +17,7 @@ class Genre
   end
 
   def songs
-    Song.all
+    Song.all.select do |song|
 
     #
     # @songs
