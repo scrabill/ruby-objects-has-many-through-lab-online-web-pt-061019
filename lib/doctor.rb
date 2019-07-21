@@ -17,5 +17,8 @@ end
     
   end
 
+  def appointments
+  end
+
 
 end
