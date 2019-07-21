@@ -19,6 +19,7 @@ end
   end
 
   def appointments
+    self.all.name == self
   end
 
 
