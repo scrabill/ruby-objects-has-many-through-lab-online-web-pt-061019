@@ -28,4 +28,10 @@ end
     end
   end
 
+  def patients
+    patients.collect do |patient|
+      patients.doctoe
+    end
+  end
+
 end
