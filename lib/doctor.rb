@@ -24,7 +24,7 @@ end
 
   def appointments
     Appointment.all.select do |appt|
-      appt.genre == self
+      appt.name == self
     end
   end
 
