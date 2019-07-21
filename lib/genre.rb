@@ -26,11 +26,6 @@ class Genre
     songs.collect do |song|
       song.artist
     end
-    # Song.all.collect do |song|
-    #   song.artist == self
-    # end
-    # self.all.artists.name
-    # binding.pry
   end
 end
 
